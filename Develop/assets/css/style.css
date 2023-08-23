@@ -50,21 +50,24 @@ p {
     font-size: 16px;
 }
 
+/* De-sized picture of the cover photo */
 .hero {
-    height: 800px;
+    height: 500px;
     width: 100%;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
 }
 
 .float-left {
+    border: 10px solid black;
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
+    border: 10px solid black;
     float: right;
     margin-left: 25px;
 }

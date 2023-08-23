@@ -1,6 +1,6 @@
 ## General Information
 
-Hello, I'm here to make a mock-up of a search engine website and it's supposed to be targeted towards consumers. As this is also a assignment for my instructors this is still a foundation learning point for dimensions and elements and tinkering with CSS and HTML.
+Hello, I'm here to make a mock-up of a marketing agency website and it's supposed to be targeted towards consumers. As this is also a assignment for my instructors this is still a foundation learning point for dimensions and elements and tinkering with CSS and HTML.
 
 ## Table of Contents
 * [General Information](#general-information)
