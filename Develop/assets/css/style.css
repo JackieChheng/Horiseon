@@ -24,6 +24,7 @@ body {
     color: #d9dcd6;
 }
 
+/* Navigation Buttons */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -47,7 +48,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 /* De-sized picture of the cover photo */
@@ -59,7 +60,7 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Added padding and borders to floating pictures */
 .float-left {
     padding: 5px;
     border: 10px solid white;
@@ -197,7 +198,7 @@ p {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+    text-align: left;
 }
 
 .footer h2 {
