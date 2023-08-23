@@ -15,6 +15,7 @@ Hello, I'm here to make a mock-up of a marketing agency website and it's suppose
 I am hoping to make sure by the end of the time that is due, I would want to make a similar picture one listed in the Challenge 1 folder.
 
 ## Screenshots
+![Website Screenshot](./Develop/assets/images/Sample.png)
 
 ## Contributions
 
