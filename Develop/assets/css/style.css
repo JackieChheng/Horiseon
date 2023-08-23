@@ -61,13 +61,15 @@ p {
 }
 
 .float-left {
-    border: 10px solid black;
+    padding: 5px;
+    border: 10px solid white;
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
-    border: 10px solid black;
+    padding: 5px;
+    border: 10px solid white;
     float: right;
     margin-left: 25px;
 }
