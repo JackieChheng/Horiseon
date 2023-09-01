@@ -92,19 +92,25 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+:root{
+    --benefit: 
     margin-bottom: 32px;
-    color: #ffffff;
+    color:#ffffff;
+}
+
+.benefit-lead {
+    margin-bottom: var(--benefit);
+    color: var(--benefit);
 }
 
 .benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: var(--benefit);
+    color: var(--benefit);
 }
 
 .benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
+    margin-bottom: var(--benefit);
+    color: var(--benefit);
 }
 
 .benefit-lead h3 {
