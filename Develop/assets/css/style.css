@@ -1,18 +1,30 @@
+/* Root conatins everything in one */
+
+:root {
+    --margin-bottom: 28px;
+    --white: #ffffff;
+    --border:10px solid white;
+    --max-height: 200px;
+}
+
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Body */
 body {
     background-color: #d9dcd6;
 }
 
+/* Header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
-    color: #ffffff;
+    color:var(--color)
 }
 
 .header h1 {
@@ -43,7 +55,7 @@ body {
 }
 
 a {
-    color: #ffffff;
+    color:(var(--white));
     text-decoration: none;
 }
 
@@ -63,14 +75,14 @@ p {
 /* Added padding and borders to floating pictures */
 .float-left {
     padding: 5px;
-    border: 10px solid white;
+    border:var(--border);
     float: left;
     margin-right: 25px;
 }
 
 .float-right {
     padding: 5px;
-    border: 10px solid white;
+    border: var(--border);
     float: right;
     margin-left: 25px;
 }
@@ -81,6 +93,7 @@ p {
     margin-left: 20px;
 }
 
+/* Benefits */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -91,26 +104,20 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-/* Added :root to benefits */
-:root{
-    --benefit: 
-    margin-bottom: 32px;
-    color:#ffffff;
-}
 
 .benefit-lead {
-    margin-bottom: var(--benefit);
-    color: var(--benefit);
+    margin-bottom: var(--margin-bottom);
+    color: var(--color);
 }
 
 .benefit-brand {
-    margin-bottom: var(--benefit);
-    color: var(--benefit);
+    margin-bottom: var(--margin-bottom);
+    color: var(--color);
 }
 
 .benefit-cost {
-    margin-bottom: var(--benefit);
-    color: var(--benefit);
+    margin-bottom: var(--margin-bottom);
+    color: var(--color);
 }
 
 .benefit-lead h3 {
@@ -146,6 +153,8 @@ p {
     max-width: 150px;
 }
 
+/* Section for Content */
+
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -174,15 +183,15 @@ p {
 }
 
 .search-engine-optimization img {
-    max-height: 200px;
+    max-height: var(--max-height);
 }
 
 .online-reputation-management img {
-    max-height: 200px;
+    max-height: var(--max-height);
 }
 
 .social-media-marketing img {
-    max-height: 200px;
+    max-height: var(--max-height);
 }
 
 .search-engine-optimization h2 {
