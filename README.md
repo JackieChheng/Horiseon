@@ -23,7 +23,7 @@ Open to contributors
 
 ## Project Status
 
-Project is: in progress
+Project is: 
 
 ## Deployed Link
 https://jackiechheng.github.io/HoriseonRefactor/
