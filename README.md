@@ -25,6 +25,9 @@ Open to contributors
 
 Project is: in progress
 
+## Deployed Link
+https://jackiechheng.github.io/HoriseonRefactor/
+
 ## Room for Improvement
 
 To do:
